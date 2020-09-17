@@ -22,6 +22,7 @@ app.use(express.static(path.join(__dirname, "/assets")));
 // 하지만 우리는 Router를 사용하기 때문에 간결하게 app.get("/", ROUTER); 이렇게 써도 된다.
 app.get("/", ROUTER);
 app.get("/page2", ROUTER);
+app.get("/page3", ROUTER);
 
 // 설정 끝난 후 Server Start
 app.listen(PORT, () => {
