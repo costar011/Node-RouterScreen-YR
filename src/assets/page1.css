@@ -1,0 +1,57 @@
+@import "./reset.css";
+
+body {
+  overflow: hidden;
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page1 .page1__col1 {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.page1 .page1__col1 .page1__col1-1 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #b2ebf2;
+}
+
+.page1 .page1__col1 .page1__col1-2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: beige;
+}
+
+.page1 .page2__col2 {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.page1 .page2__col2 .page2__col2-1 {
+  width: 100%;
+  height: 100%;
+
+  background-color: bisque;
+}
+
+.page1 .page2__col2 .page2__col2-2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: blue;
+}
