@@ -10,7 +10,7 @@
   width: 25%;
   height: 100%;
 
-  background-color: coral;
+  background-color: #fad390;
 }
 
 .page3 .page3__col2 {
@@ -19,4 +19,25 @@
 
   display: flex;
   flex-direction: column;
+}
+
+.page3 .page3__col2 .page3__col2-1 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #f8c291;
+}
+
+.page3 .page3__col2 .page3__col2-2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #f6b93b;
+}
+
+.page3 .page3__col3 {
+  width: 25%;
+  height: 100%;
+
+  background-color: #fa983a;
 }
