@@ -1,0 +1,22 @@
+.page3 {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.page3 .page3__col1 {
+  width: 25%;
+  height: 100%;
+
+  background-color: coral;
+}
+
+.page3 .page3__col2 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
